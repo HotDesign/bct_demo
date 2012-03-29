@@ -22,7 +22,10 @@
 		if (!empty($vars['title'])) { 
 			echo $vars['title'] . ' | ';
 		}
+                
+                if (!empty($CONFIG->name)) {
 		echo $CONFIG->name;
+                }
 	?></title>
 	<?php echo view('metatags', $vars); ?>
 	<?php echo view('favicon', $vars); ?>

@@ -12,7 +12,6 @@
 	 */
 
 	require_once(dirname(dirname(__FILE__)) . "/engine/start.php");
-	
 	$page = input_get('page');
 
 	if (!page_handler($page))

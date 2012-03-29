@@ -21,7 +21,7 @@
 --         Types are delimited by ":"
 -- handling_class : The system class physically handling this type.
 -- created_ts : Unix timestamp denoting when this entity was created.
-CREATE table prefix_bctobjects (
+CREATE table bct_bctobjects (
 	`guid` bigint(20) unsigned  NOT NULL auto_increment,
 	`type` varchar(256) NOT NULL,
 	`handling_class` varchar(50) NOT NULL,
@@ -42,7 +42,7 @@ CREATE table prefix_bctobjects (
 -- guid : Object this item of metadata is attached to.
 -- name : The name of the metadata.
 -- value : Its value
-CREATE table prefix_bctobjects_metadata (
+CREATE table bct_bctobjects_metadata (
 	`id` bigint(20) unsigned NOT NULL auto_increment,
 	`guid` bigint(20) unsigned  NOT NULL,
 
