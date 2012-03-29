@@ -28,14 +28,13 @@ FEATURES
 - Object/Metadata based data model
 
 
-DEMO DEVELOPER
----------------
+####DEMO DEVELOPER
+
 Germanaz0
 germanazo@gmail.com
 
 
-CONTACT
---------------
+####CONTACT
 
 Marcus Povey <marcus@marcus-povey.co.uk>
 http://www.marcus-povey.co.uk
